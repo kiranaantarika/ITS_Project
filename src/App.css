@@ -1,0 +1,208 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.image-slider {
+  overflow: hidden;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.image-track {
+  display: flex;
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.slider-img {
+  margin-top: 10.5%;
+  width: 100%; /* Full width of viewport */
+  height: 100vh; /* Full height of viewport */
+  object-fit: cover; /* Cover entire area without stretching */
+  flex-shrink: 0;
+}
+
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url('https://via.placeholder.com/1920x1080');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: center 0%;
+  }
+  50% {
+    background-position: center 100%;
+  }
+  100% {
+    background-position: center 0%;
+  }
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  padding-top: 180px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Text Animations */
+.animated-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  animation: slideIn 1s ease-out, fadeIn 1.5s ease-in-out;
+}
+
+.animated-description {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* CTA Button */
+.cta-button {
+  padding: 12px 25px;
+  background-color: #f953c6;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  animation: bounce 3s infinite;
+}
+
+.cta-button:hover {
+  background-color: #b91d73;
+}
+
+/* Keyframes */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Highlight and Gradient Styling */
+.brand-gradient {
+  background: linear-gradient(90deg, #ff6f61, #ffa738);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  color: #ffb347;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .animated-title {
+    font-size: 2rem;
+    margin-top: 50%;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .animated-description {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .slider-img {
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+}
