@@ -1,18 +1,18 @@
 /* Features Section */
 .features-section {
   padding: 80px 20px 50px 20px;
-  background-color: #f5f5f5; /* Light gray for a neutral background */
   text-align: center;
-  font-family: "Arial", sans-serif;
-  color: #1a237e; /* Dark indigo for text */
+  font-family: "Poppins", sans-serif;
+  color: white; /* White text for contrast */
 }
 
 .features-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #00796b; /* Deep teal for heading */
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: #ffeb3b; /* Yellow highlight */
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* Features Row */
@@ -20,38 +20,55 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 /* Feature Card */
 .feature-card {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Softer, deeper shadow */
   width: calc(25% - 20px); /* 4 cards in a row */
-  padding: 20px;
+  padding: 25px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Subtle hover transition */
+  transition: all 0.3s ease-in-out;
+  border-bottom: 5px solid transparent; /* Subtle border effect */
 }
 
 /* Hover Effect */
 .feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Slightly darker shadow on hover */
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  border-bottom: 5px solid #ffeb3b; /* Yellow accent on hover */
 }
 
 /* Icon */
 .feature-icon {
-  font-size: 2.5rem;
-  color: #00796b; /* Deep teal for icon color */
-  margin-bottom: 15px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Icon Colors */
+.feature-card:nth-child(1) .feature-icon { color: #ff9800; } /* Housekeeping - Orange */
+.feature-card:nth-child(2) .feature-icon { color: #00acc1; } /* Deep Cleaning - Cyan */
+.feature-card:nth-child(3) .feature-icon { color: #8e24aa; } /* Interior Works - Purple */
+.feature-card:nth-child(4) .feature-icon { color: #ff1744; } /* Electrical Works - Red */
+.feature-card:nth-child(5) .feature-icon { color: #4caf50; } /* Plumbing Work - Green */
+.feature-card:nth-child(6) .feature-icon { color: #388e3c; } /* Gardening Work - Dark Green */
+.feature-card:nth-child(7) .feature-icon { color: #d32f2f; } /* Pest Control - Dark Red */
+.feature-card:nth-child(8) .feature-icon { color: #fbc02d; } /* Catering Services - Yellow */
+
+/* Hover Effect on Icon */
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
 }
 
 /* Description */
 .feature-card p {
-  font-size: 1rem;
-  color: #455a64; /* Dark grayish blue for text */
-  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #37474f; /* Deep gray for better readability */
+  line-height: 1.7;
   margin-bottom: 15px;
 }
 
@@ -70,10 +87,10 @@
 
 @media (max-width: 480px) {
   .feature-card {
-    width: 100%; /* 1 card in a row */
-    padding: 30px;
+    width: 100%; /* 1 card per row */
+    padding: 35px;
   }
   .features-row {
-    gap: 15px;
+    gap: 20px;
   }
 }
