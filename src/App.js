@@ -13,7 +13,7 @@ import WhyChooseUs from "./components/js_components/whyChooseUs.js";
 // Array of images for hero section
 const heroImages = [
   "./images/servant.jpg",
-  "/images/servant1.jpg",
+  "/images/bugsImage.jpg",
   "/images/servant2.jpg",
   "/images/servant3.jpg",
   "/images/servant4.jpg",
