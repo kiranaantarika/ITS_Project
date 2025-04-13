@@ -10,7 +10,7 @@
     align-items: center;
     padding: 20px;
     background-color: #FFFFFF;
-    height: 80px;
+    height: 60px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border: #000000;
     position: fixed; /* Fix the header at the top */
@@ -23,7 +23,9 @@
   
   /* Logo Styling */
   .logo img {
-    height: 90px;
+    height: 130px;
+    padding-top: 10px;
+    width: 120px;
   }
   
   /* Navigation Links */

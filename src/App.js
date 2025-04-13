@@ -78,19 +78,19 @@ function App() {
                             just the way you like it
                           </span>
                         </h1>
-                        <p className="animated-description">
+                        {/* <p className="animated-description">
                           Over{" "}
                           <span className="highlight">1 million people</span>{" "}
                           use Housekeeper.com for their cleaning needs.
-                        </p>
-                        <p className="animated-description">
+                        </p> */}
+                        {/* <p className="animated-description">
                           <span className="highlight">
                             Look for jobs near you.
                           </span>{" "}
                           Look for cleaners near you.
-                        </p>
+                        </p> */}
                         <button className="cta-button" onClick={scrollToAbout}>
-                          Find a Cleaner
+                          Know about us 
                         </button>
                       </div>
                     </div>

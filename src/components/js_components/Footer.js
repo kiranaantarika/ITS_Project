@@ -9,8 +9,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h3>OneQuickSolutions</h3>
-          <p>Unlock the Future of Business with Our Platform.</p>
+          <h3>In Time Services</h3>
+          <p>Service tailor made for you...</p>
         </div>
         <div className="footer-links">
           <h4>Quick Links</h4>

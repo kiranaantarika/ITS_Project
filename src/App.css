@@ -30,7 +30,7 @@ html {
 }
 
 .slider-img {
-  margin-top: 10.5%;
+  margin-top: 6%;
   width: 100%; /* Full width of viewport */
   height: 100vh; /* Full height of viewport */
   object-fit: cover; /* Cover entire area without stretching */

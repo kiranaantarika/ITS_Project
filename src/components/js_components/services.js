@@ -45,9 +45,9 @@ const Services = () => {
   return (
     <section ref={service} id="service" className="services-section">
       <h2 className="services-heading">Our Services</h2>
-      <p className="services-subheading">
+      {/* <p className="services-subheading">
         We offer a range of services designed to help your business thrive.
-      </p>
+      </p> */}
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
