@@ -16,9 +16,9 @@ const Services = () => {
       icon: "🧽",
     },
     {
-      title: "Move-In/Move-Out Cleaning",
-      description: "Ensure a fresh start in your new home with professional cleaning.",
-      icon: "📦",
+      title: "Catering Services",
+      description: "Provide delicious meals and beverages for events, parties, and corporate functions.",
+      icon: "🍽️",
     },
     {
       title: "Carpet & Upholstery Cleaning",
@@ -26,9 +26,9 @@ const Services = () => {
       icon: "🛋️",
     },
     {
-      title: "Eco-Friendly Cleaning",
-      description: "Safe and non-toxic cleaning products for a healthier environment.",
-      icon: "🌿",
+      title: "Multiskilled Services",
+      description: "Versatile assistance with repairs, maintenance, installations, and general handyman tasks.",
+      icon: "🛠️",
     },
     {
       title: "Laundry & Ironing Services",
@@ -36,10 +36,11 @@ const Services = () => {
       icon: "👕",
     },
     {
-      title: "Post-Construction Cleaning",
-      description: "Remove dust and debris after renovations or construction work.",
-      icon: "🚧",
+      title: "Gardening Services",
+      description: "Maintain lawns, trim hedges, plant flowers, and ensure overall garden care.",
+      icon: "🪴",
     },
+    
   ];  
 
   return (

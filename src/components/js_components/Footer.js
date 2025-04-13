@@ -9,8 +9,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h3>In Time Services</h3>
-          <p>Service tailor made for you...</p>
+          {/* <h3>In Time Services</h3>
+          <p>Service tailor made for you...</p> */}
+          <img className='founder-logo' src="./images/employees/profilepic.jpg"/>
         </div>
         <div className="footer-links">
           <h4>Quick Links</h4>

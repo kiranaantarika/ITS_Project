@@ -12,13 +12,11 @@ import WhyChooseUs from "./components/js_components/whyChooseUs.js";
 
 // Array of images for hero section
 const heroImages = [
-  "./images/servant.jpg",
-  "/images/bugsImage.jpg",
-  "/images/servant2.jpg",
-  "/images/servant3.jpg",
-  "/images/servant4.jpg",
-  "/images/servant5.jpg",
-  "/images/servant6.jpg",
+  "./images/employees/IMG-20250405-WA0038.jpg",
+  "./images/employees/IMG-20250405-WA0015.jpg",
+  "./images/employees/IMG-20250405-WA0050.jpg",
+  "./images/employees/IMG-20250405-WA0056.jpg",
+  
 ];
 
 function App() {

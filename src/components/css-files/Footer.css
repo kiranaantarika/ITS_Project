@@ -85,6 +85,11 @@
   margin: 0;
 }
 
+.founder-logo{
+  height: 200px;
+  width: 500px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .footer-container {
@@ -103,4 +108,10 @@
   .footer-social .social-icons {
     justify-content: center;
   }
+
+  
+.founder-logo{
+  height: 200px;
+  width: 340px;
+}
 }
