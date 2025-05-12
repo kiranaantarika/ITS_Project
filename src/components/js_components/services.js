@@ -5,43 +5,38 @@ const Services = () => {
   const service = useRef(null);
 
   const services = [
-    {
-      title: "Regular House Cleaning",
-      description: "Keep your home spotless with scheduled cleanings tailored to your needs.",
-      icon: "🧹",
-    },
-    {
-      title: "Deep Cleaning Services",
-      description: "Thorough top-to-bottom cleaning for a fresher and healthier home.",
-      icon: "🧽",
-    },
-    {
-      title: "Catering Services",
-      description: "Provide delicious meals and beverages for events, parties, and corporate functions.",
-      icon: "🍽️",
-    },
-    {
-      title: "Carpet & Upholstery Cleaning",
-      description: "Restore the freshness of your carpets, rugs, and furniture.",
-      icon: "🛋️",
-    },
-    {
-      title: "Multiskilled Services",
-      description: "Versatile assistance with repairs, maintenance, installations, and general handyman tasks.",
-      icon: "🛠️",
-    },
-    {
-      title: "Laundry & Ironing Services",
-      description: "Convenient washing, drying, and ironing for your household needs.",
-      icon: "👕",
-    },
-    {
-      title: "Gardening Services",
-      description: "Maintain lawns, trim hedges, plant flowers, and ensure overall garden care.",
-      icon: "🪴",
-    },
-    
-  ];  
+  {
+    title: "Housekeeping",
+    description: "Professional daily cleaning and maintenance to keep your premises spotless.",
+    icon: "🧹",
+  },
+  {
+    title: "Security Services",
+    description: "Trained personnel ensuring the safety and protection of your property and people.",
+    icon: "👮‍♂️",
+  },
+  {
+    title: "Gardening",
+    description: "Comprehensive lawn care, plant maintenance, and landscape upkeep services.",
+    icon: "🌿",
+  },
+  {
+    title: "Painting",
+    description: "Interior and exterior painting for a fresh, vibrant, and well-maintained look.",
+    icon: "🎨",
+  },
+  {
+    title: "STP/WTP Maintenance",
+    description: "Expert operation and maintenance of sewage and water treatment plants.",
+    icon: "🚰",
+  },
+  {
+    title: "One-Time / Deep Cleaning",
+    description: "Intensive cleaning service for seasonal refresh or special occasions.",
+    icon: "🧽",
+  },
+];
+
 
   return (
     <section ref={service} id="service" className="services-section">

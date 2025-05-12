@@ -16,7 +16,6 @@ const heroImages = [
   "./images/employees/IMG-20250405-WA0015.jpg",
   "./images/employees/IMG-20250405-WA0050.jpg",
   "./images/employees/IMG-20250405-WA0056.jpg",
-  
 ];
 
 function App() {
@@ -69,29 +68,19 @@ function App() {
 
                     {/* Hero Text Overlay */}
                     <div className="hero-overlay">
-                      <div className="hero-content">
-                        <h1 className="animated-title">
-                          Get your home cleaned{" "}
-                          <span className="brand-gradient">
-                            just the way you like it
-                          </span>
-                        </h1>
-                        {/* <p className="animated-description">
-                          Over{" "}
-                          <span className="highlight">1 million people</span>{" "}
-                          use Housekeeper.com for their cleaning needs.
-                        </p> */}
-                        {/* <p className="animated-description">
-                          <span className="highlight">
-                            Look for jobs near you.
-                          </span>{" "}
-                          Look for cleaners near you.
-                        </p> */}
-                        <button className="cta-button" onClick={scrollToAbout}>
-                          Know about us 
-                        </button>
-                      </div>
-                    </div>
+  <div className="hero-content">
+    <h1 className="animated-title">FACILITY MANAGEMENT</h1>
+    <p className="animated-description">
+      We offer Integrated Facility Management Services designed to ensure the
+      functionality, comfort, safety, and efficiency of your spaces — whether
+      it's an enclosed facility or an open environment.
+    </p>
+    <button className="cta-button" onClick={scrollToAbout}>
+      Know about us
+    </button>
+  </div>
+</div>
+
                   </section>
 
                   <WhyChooseUs />

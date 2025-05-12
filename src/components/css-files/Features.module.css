@@ -9,7 +9,7 @@
 .features-section h2 {
   font-size: 2.8rem;
   margin-bottom: 40px;
-  color: #ffeb3b; /* Yellow highlight */
+  color: #333; /* Yellow highlight */
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -37,9 +37,9 @@
 
 /* Hover Effect */
 .feature-card:hover {
-  transform: translateY(-8px);
+transform: translateY(-8px) ;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
-  border-bottom: 5px solid #ffeb3b; /* Yellow accent on hover */
+  border: 1px solid #ff963b; /* Yellow accent on hover */
 }
 
 /* Icon */
