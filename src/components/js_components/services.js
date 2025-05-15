@@ -31,7 +31,7 @@ const Services = () => {
     icon: "🚰",
   },
   {
-    title: "One-Time / Deep Cleaning",
+    title: " Deep Cleaning",
     description: "Intensive cleaning service for seasonal refresh or special occasions.",
     icon: "🧽",
   },

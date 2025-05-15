@@ -13,7 +13,7 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_5rp4uvd', 'template_s3p06vb', form.current, 'uYUgRDXjOgNnMfcN-')
+      .sendForm('service_lo8g1bt', 'template_dco259p', form.current, '8Y8JX2wNCjs7jP-a6')
       .then(
         () => {
           toast.success("Will Get Back Soon!");
@@ -32,15 +32,15 @@ export const ContactUs = () => {
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="form-group">
           <label>Name</label>
-          <input type="text" name="user_name" placeholder="Enter your name" required />
+          <input type="text" name="name" placeholder="Enter your name" required />
         </div>
         <div className="form-group">
           <label>Email</label>
-          <input type="email" name="user_email" placeholder="Enter your email" required />
+          <input type="email" name="email" placeholder="Enter your email" required />
         </div>
         <div className="form-group">
           <label>Phone</label>
-          <input type="number" name="user_phone" placeholder="Enter your phone number"  required/>
+          <input type="number" name="mobile" placeholder="Enter your phone number"  required/>
         </div>
         <div className="form-group">
           <label>Subject</label>
