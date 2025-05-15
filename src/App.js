@@ -9,6 +9,7 @@ import AboutUs from "./components/js_components/About.js";
 import ContactUs from "./components/js_components/contactUs.js";
 import Services from "./components/js_components/services.js";
 import WhyChooseUs from "./components/js_components/whyChooseUs.js";
+import BrandingSection from "./components/js_components/Brand.js";
 
 // Array of images for hero section
 const heroImages = [
@@ -16,6 +17,9 @@ const heroImages = [
   "./images/employees/IMG-20250405-WA0015.jpg",
   "./images/employees/IMG-20250405-WA0050.jpg",
   "./images/employees/IMG-20250405-WA0056.jpg",
+  "./images/employees/IMG-20250405-WA0006.jpg",
+  "./images/employees/IMG-20250405-WA0033.jpg",
+  "./images/employees/IMG-20250405-WA0004.jpg",
 ];
 
 function App() {
@@ -68,19 +72,19 @@ function App() {
 
                     {/* Hero Text Overlay */}
                     <div className="hero-overlay">
-  <div className="hero-content">
-    <h1 className="animated-title">FACILITY MANAGEMENT</h1>
-    <p className="animated-description">
-      We offer Integrated Facility Management Services designed to ensure the
-      functionality, comfort, safety, and efficiency of your spaces — whether
-      it's an enclosed facility or an open environment.
-    </p>
-    <button className="cta-button" onClick={scrollToAbout}>
-      Know about us
-    </button>
-  </div>
-</div>
-
+                      <div className="hero-content">
+                        <h1 className="animated-title">FACILITY MANAGEMENT</h1>
+                        <p className="animated-description">
+                          We offer Integrated Facility Management Services
+                          designed to ensure the functionality, comfort, safety,
+                          and efficiency of your spaces — whether it's an
+                          enclosed facility or an open environment.
+                        </p>
+                        <button className="cta-button" onClick={scrollToAbout}>
+                          Know about us
+                        </button>
+                      </div>
+                    </div>
                   </section>
 
                   <WhyChooseUs />
@@ -90,6 +94,7 @@ function App() {
                   <Features />
                   <Services />
                   <Founders />
+                  <BrandingSection />
                   <ContactUs />
                 </>
               }

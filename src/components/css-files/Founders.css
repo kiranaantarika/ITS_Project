@@ -180,7 +180,7 @@
 .button-group button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 242, 254, 0.5);
-  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  background: linear-gradient(135deg, #00c6ff, #d4d4d4);
 }
 
 .button-group button:active {
@@ -189,7 +189,7 @@
 }
 
 .button-group button.active {
-  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  background: linear-gradient(135deg, #ffc400, #ff8c00);
   font-weight: 600;
   transform: scale(1.05);
   box-shadow: 0 6px 18px rgba(0, 114, 255, 0.5);

@@ -1,0 +1,43 @@
+.wrapper {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 25s linear infinite;
+}
+
+.logo {
+  width: 180px;
+  height: 120px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
