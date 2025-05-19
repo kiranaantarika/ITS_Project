@@ -14,7 +14,6 @@ const Founder = () => {
       { image: "./images/employees/IMG-20250405-WA0059.jpg" },
       { image: "./images/employees/IMG-20250405-WA0064.jpg" },
       { image: "./images/employees/IMG-20250405-WA0063.jpg" },
-
     ],
     // manager: {
     //   image: "./images/Profile-Images/Ramya.jpg",
@@ -28,6 +27,15 @@ const Founder = () => {
       { image: "./images/employees/IMG-20250405-WA0055.jpg" },
       { image: "./images/employees/IMG-20250405-WA0042.jpg" },
       { image: "./images/employees/IMG-20250405-WA0061.jpg" },
+      { image: "./images/employees/5.jpg" },
+      { image: "./images/employees/6.jpg" },
+      { image: "./images/employees/7.jpg" },
+      { image: "./images/employees/a.jpg" },
+      { image: "./images/employees/8.jpg" },
+      { image: "./images/employees/9.jpg" },
+      { image: "./images/employees/10.jpg" },
+      { image: "./images/employees/11.jpg" },
+      { image: "./images/employees/12.jpg" },
     ],
   };
 
@@ -78,7 +86,7 @@ const Founder = () => {
         </div>
       )} */}
 
-{activeSection === "executives" && (
+      {activeSection === "executives" && (
         <div className="scroll-buttons">
           <button
             className="scroll-button left"
