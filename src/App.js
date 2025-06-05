@@ -10,6 +10,7 @@ import ContactUs from "./components/js_components/contactUs.js";
 import Services from "./components/js_components/services.js";
 import WhyChooseUs from "./components/js_components/whyChooseUs.js";
 import BrandingSection from "./components/js_components/Brand.js";
+import HeroSection from "./components/js_components/heroSection.js"
 
 // Array of images for hero section
 const heroImages = [
@@ -95,6 +96,7 @@ function App() {
                   <Services />
                   <Founders />
                   <BrandingSection />
+                  <HeroSection/>
                   <ContactUs />
                 </>
               }
