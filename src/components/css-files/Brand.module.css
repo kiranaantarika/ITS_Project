@@ -14,17 +14,19 @@
 .marquee {
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .track {
   display: flex;
   gap: 40px;
-  animation: scroll 25s linear infinite;
+  width: max-content;
+  animation: scroll 35s linear infinite;
 }
 
 .logo {
   width: 180px;
-  height: 120px;
+  height: 140px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -39,5 +41,22 @@
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+/* ✅ Responsive styles for mobile */
+@media (max-width: 768px) {
+  .track {
+    gap: 20px;
+    animation-duration: 15s;
+  }
+
+  .logo {
+    width: 120px;
+    height: 100px;
+  }
+
+  .title {
+    font-size: 1.5rem;
   }
 }

@@ -12,6 +12,23 @@
   overflow: hidden;
 }
 
+
+.contact-us select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 1rem;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+
 @keyframes randomBackground {
   0% {
     background-position: 0% 50%;

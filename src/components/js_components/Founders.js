@@ -7,6 +7,12 @@ const Founder = () => {
 
   const team = {
     executives: [
+      { image: "./images/employees/IMG-20250405-WA0003.jpg" },
+      { image: "./images/employees/IMG-20250405-WA0004.jpg" },
+      { image: "./images/employees/IMG-20250405-WA0058.jpg" },
+      { image: "./images/employees/IMG-20250405-WA0055.jpg" },
+      { image: "./images/employees/IMG-20250405-WA0042.jpg" },
+      { image: "./images/employees/IMG-20250405-WA0061.jpg" },
       { image: "./images/employees/IMG-20250405-WA0045.jpg" },
       { image: "./images/employees/IMG-20250405-WA0015.jpg" },
       { image: "./images/employees/IMG-20250405-WA0021.jpg" },
@@ -21,12 +27,7 @@ const Founder = () => {
     //   title: 'Chief Technology Officer'
     // },
     employees: [
-      { image: "./images/employees/IMG-20250405-WA0003.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0004.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0058.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0055.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0042.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0061.jpg" },
+  
       { image: "./images/employees/5.jpg" },
       { image: "./images/employees/6.jpg" },
       { image: "./images/employees/7.jpg" },
@@ -55,12 +56,7 @@ const Founder = () => {
         >
           Cleaning
         </button>
-        {/* <button
-          className={activeSection === 'manager' ? 'active' : ''}
-          onClick={() => setActiveSection('manager')}
-        >
-          Manager
-        </button> */}
+        
         <button
           className={activeSection === "employees" ? "active" : ""}
           onClick={() => setActiveSection("employees")}
