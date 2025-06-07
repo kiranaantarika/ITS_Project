@@ -40,6 +40,10 @@ const AboutUs = () => {
             <ul className="features-list">
               <li>
                 <FontAwesomeIcon className="icon-check" icon={faCheck} />{" "}
+                Facility Management
+              </li>
+              <li>
+                <FontAwesomeIcon className="icon-check" icon={faCheck} />{" "}
                 Professional & Reliable Cleaners
               </li>
               <li>
