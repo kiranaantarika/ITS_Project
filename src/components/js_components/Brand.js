@@ -8,12 +8,15 @@ const clientLogos = [
   "/images/clients/image.png",
   "/images/clients/playlogo-1.jpg",
   "/images/clients/RR_Logo-01_mxoxnl.avif",
-    "/images/clients/WhatsApp Image 2025-05-16 at 05.04.54_0d2b3332.jpg",
+  "/images/clients/WhatsApp Image 2025-05-16 at 05.04.54_0d2b3332.jpg",
   "/images/clients/WhatsApp Image 2025-05-16 at 05.14.32_880c33d1.jpg",
-
+  "/images/clients/WhatsApp Image 2025-05-16 at 05.36.12_dc57cfde.jpg",
   "/images/clients/WhatsApp Image 2025-06-02 at 21.35.01_10daba8c.jpg",
   "/images/clients/WhatsApp Image 2025-05-16 at 05.02.27_b9405f70.jpg",
   "/images/clients/WhatsApp Image 2025-05-16 at 05.05.56_b8524b51.jpg",
+  "/images/clients/lalbagh.png",
+  "/images/clients/arena.jpg",
+
 ];
 const OurClients = () => {
   return (

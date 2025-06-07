@@ -7,16 +7,51 @@ const Founder = () => {
 
   const team = {
     executives: [
-      { image: "./images/employees/IMG-20250405-WA0003.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0004.jpg" },
+    { image: "./images/employees/IMG-20250405-WA0003.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0004.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0005.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0006.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0007.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0008.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0009.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0010.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0011.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0012.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0013.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0014.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0015.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0016.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0017.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0018.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0019.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0020.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0021.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0022.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0023.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0024.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0025.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0026.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0027.jpg" },
+  { image: "./images/employees/IMG-20250405-WA0028.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0029.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0030.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0031.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0032.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0033.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0034.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0035.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0036.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0037.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0038.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0039.jpg" },
+  // { image: "./images/employees/IMG-20250405-WA0040.jpg" },
       { image: "./images/employees/IMG-20250405-WA0058.jpg" },
       { image: "./images/employees/IMG-20250405-WA0055.jpg" },
       { image: "./images/employees/IMG-20250405-WA0042.jpg" },
       { image: "./images/employees/IMG-20250405-WA0061.jpg" },
       { image: "./images/employees/IMG-20250405-WA0045.jpg" },
       { image: "./images/employees/IMG-20250405-WA0015.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0021.jpg" },
-      { image: "./images/employees/IMG-20250405-WA0011.jpg" },
+      
       { image: "./images/employees/IMG-20250405-WA0059.jpg" },
       { image: "./images/employees/IMG-20250405-WA0064.jpg" },
       { image: "./images/employees/IMG-20250405-WA0063.jpg" },
@@ -27,7 +62,6 @@ const Founder = () => {
     //   title: 'Chief Technology Officer'
     // },
     employees: [
-  
       { image: "./images/employees/5.jpg" },
       { image: "./images/employees/6.jpg" },
       { image: "./images/employees/7.jpg" },
@@ -37,6 +71,10 @@ const Founder = () => {
       { image: "./images/employees/10.jpg" },
       { image: "./images/employees/11.jpg" },
       { image: "./images/employees/12.jpg" },
+      {
+        image:
+          "./images/employees/WhatsApp Image 2025-05-16 at 05.36.12_dc57cfde.jpg",
+      },
     ],
   };
 
@@ -56,7 +94,7 @@ const Founder = () => {
         >
           Cleaning
         </button>
-        
+
         <button
           className={activeSection === "employees" ? "active" : ""}
           onClick={() => setActiveSection("employees")}
