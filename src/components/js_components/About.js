@@ -54,10 +54,10 @@ const AboutUs = () => {
                 <FontAwesomeIcon className="icon-check" icon={faCheck} />{" "}
                 Affordable & Transparent Pricing
               </li>
-              <li>
+              {/* <li>
                 <FontAwesomeIcon className="icon-check" icon={faCheck} />{" "}
                 Eco-Friendly Cleaning Products
-              </li>
+              </li> */}
               <li>
                 <FontAwesomeIcon className="icon-check" icon={faCheck} /> 100%
                 Satisfaction Guarantee
