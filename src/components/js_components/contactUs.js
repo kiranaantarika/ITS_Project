@@ -88,7 +88,7 @@ export const ContactUs = () => {
           <label htmlFor="rating">
             "Rate our service (optional if not used)"
           </label>
-          <select name="rating" id="rating" required>
+          <select name="rating" id="rating" >
             <option value="">Select your rating</option>
             <option value="1">⭐</option>
             <option value="2">⭐⭐</option>
