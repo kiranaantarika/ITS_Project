@@ -2,16 +2,6 @@ import React, { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBroom, faPumpSoap, faCouch, faBolt, faWrench, faSeedling, faBug, faUtensils } from "@fortawesome/free-solid-svg-icons";
 
-// import {
-//   faCloud,
-//   faTools,
-//   faCode,
-//   faSyncAlt,
-//   faRobot,
-//   faMobileAlt,
-//   faChartBar,
-//   faShieldAlt,
-// } from "@fortawesome/free-solid-svg-icons";
 import styles from "../css-files/Features.module.css";
 
 function Features() {

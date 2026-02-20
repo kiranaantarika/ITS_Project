@@ -5,7 +5,6 @@ import { FaTimes } from "react-icons/fa";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate(); // Hook to navigate programmatically {{inbuilt function}}
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

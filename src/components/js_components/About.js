@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const AboutUs = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const aboutRef = useRef(null);
 
   const scrollToSection = (sectionId) => {
@@ -67,7 +66,6 @@ const AboutUs = () => {
               className="book-tour"
               onClick={() => {
                 scrollToSection("contact");
-                setIsMenuOpen(false);
               }}
               type="button"
             >
