@@ -35,6 +35,7 @@ export const initAnalytics = () => {
       const markNum = parseInt(mark);
       if (scrollPercent >= markNum && !scrollMarks[mark]) {
         scrollMarks[mark] = true;
+        console.log(`[Analytics] Scroll depth reached: ${markNum}%`);
         window.dataLayer.push({
           event: 'scroll_depth',
           depth_percent: markNum,
