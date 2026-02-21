@@ -3,6 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css'; // If you have any global styles
+import { initAnalytics } from './analytics';
+
+initAnalytics();
 
 ReactDOM.render(
   <React.StrictMode>
